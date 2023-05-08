@@ -1,7 +1,7 @@
 # Título do Projeto
 
 
-![Capa do Projeto](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.trabalhabrasil.com.br%2Fempresas%2Fautopass%2Ftrabalhe-conosco&psig=AOvVaw2roq3gpzY1SX5CWWGy763K&ust=1683648899730000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDRzYaP5v4CFQAAAAAdAAAAABAE)
+![Capa do Projeto](https://img.freepik.com/fotos-gratis/close-up-mulher-segurando-cartao_23-2148989575.jpg?size=626&ext=jpg)
 
 # Sobre o Projeto
 
