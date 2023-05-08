@@ -24,8 +24,8 @@ O projeto constitui na modelação das telas do software instalado nas máquinas
 
 # Autores
 
-Allan Lima dos Santos - 821225540
-Arthur de Araújo Brites - 821246233
+Allan Lima dos Santos - 821225540 <br/>
+Arthur de Araújo Brites - 821246233 <br/>
 Levi Varjão da Silva - 722121989
 
 # Agradecimentos
