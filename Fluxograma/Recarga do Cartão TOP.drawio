@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" modified="2023-05-07T19:52:16.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 OPR/97.0.0.0" etag="x3tP8Snif5UtYjNnPzIg" version="21.2.9" type="google">
+  <diagram id="nJJkk1liXFZkpycsaKev" name="Page-1">
+    <mxGraphModel dx="2033" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LHLX_6FpRkzY1i8xHUrP-5" target="LHLX_6FpRkzY1i8xHUrP-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;começar&lt;/font&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="70" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LHLX_6FpRkzY1i8xHUrP-7" target="lMWhSO8_bXc1tyFailh1-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Página de login: O usuário escolhe a opção de recarregar o Cartão TOP&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lMWhSO8_bXc1tyFailh1-1" target="LHLX_6FpRkzY1i8xHUrP-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LHLX_6FpRkzY1i8xHUrP-9" target="lMWhSO8_bXc1tyFailh1-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="290" />
+              <mxPoint x="730" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-38" value="Escolhe a Opção Dinheiro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lMWhSO8_bXc1tyFailh1-13">
+          <mxGeometry x="-0.1025" y="-1" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LHLX_6FpRkzY1i8xHUrP-9" target="lMWhSO8_bXc1tyFailh1-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="290" />
+              <mxPoint x="554" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-37" value="Escolhe a opção Débito" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lMWhSO8_bXc1tyFailh1-36">
+          <mxGeometry x="0.1745" relative="1" as="geometry">
+            <mxPoint x="-4" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-9" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Escolhe o tipo de recarga&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="600" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LHLX_6FpRkzY1i8xHUrP-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="1050" />
+              <mxPoint x="20" y="250" />
+            </Array>
+            <mxPoint x="190" y="1050.0344827586207" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-40" value="Sistema volta para tela inicial." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LHLX_6FpRkzY1i8xHUrP-33">
+          <mxGeometry x="-0.7949" relative="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lMWhSO8_bXc1tyFailh1-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LHLX_6FpRkzY1i8xHUrP-49" target="lMWhSO8_bXc1tyFailh1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-49" value="Compra no cartão é aprovada" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="494" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LHLX_6FpRkzY1i8xHUrP-50" value="Cartão é recarregado com sucesso!" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-1" value="Escolhe o método de pagamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-16" target="lMWhSO8_bXc1tyFailh1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-16" value="Usuário digita a senha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-18" value="Sistema pede que usuário remova seu cartão" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-19" target="lMWhSO8_bXc1tyFailh1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="690" />
+              <mxPoint x="410" y="520" />
+              <mxPoint x="450" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-22" value="Senha Incorreta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lMWhSO8_bXc1tyFailh1-20">
+          <mxGeometry x="-0.1821" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-19" target="LHLX_6FpRkzY1i8xHUrP-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-27" value="Senha Correta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lMWhSO8_bXc1tyFailh1-21">
+          <mxGeometry x="-0.2551" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-19" target="lMWhSO8_bXc1tyFailh1-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="690" />
+              <mxPoint x="280" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-26" value="Senha Incorreta 3x" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lMWhSO8_bXc1tyFailh1-25">
+          <mxGeometry x="-0.2509" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-19" value="Senha correta?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-23" target="LHLX_6FpRkzY1i8xHUrP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-23" value="Usuário tem seu cartão bloqueado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-29" target="lMWhSO8_bXc1tyFailh1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-29" value="Usuário insere o dinheiro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-30" target="lMWhSO8_bXc1tyFailh1-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-30" value="Usuário confere o Valor de recarga" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-32" target="lMWhSO8_bXc1tyFailh1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-32" value="Usuário Insere seu cartão" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-35" target="lMWhSO8_bXc1tyFailh1-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="770" />
+              <mxPoint x="810" y="950" />
+              <mxPoint x="680" y="950" />
+              <mxPoint x="680" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-35" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Usuário escolhe se deseja ou não imprimir o recibo&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lMWhSO8_bXc1tyFailh1-41" target="LHLX_6FpRkzY1i8xHUrP-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="950" />
+              <mxPoint x="680" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lMWhSO8_bXc1tyFailh1-41" value="A máquina imprime o recibo para o usuário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
