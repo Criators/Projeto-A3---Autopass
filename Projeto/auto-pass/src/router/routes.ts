@@ -1,18 +1,18 @@
 import { RouteRecordRaw } from 'vue-router';
-
+import SideMenuPage from 'pages/SideMenuPage.vue';
+import QrCodeLayout from 'layouts/QrCodeLayout.vue';
+import MainMenu from 'src/layouts/MainMenu.vue';
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    component: () => import('layouts/MainMenu.vue'),
-    children: [{ path: '', component: () => import('pages/SideMenuPage.vue') }],
+    component: MainMenu,
+    children: [{ path: '', component: SideMenuPage }],
+    props: true,
   },
   {
     path: '/QRCode',
-    component: () => import('layouts/QrCodeLayout.vue'),
-    children: [
-      { path: 'step1', component: () => import('src/pages/SideMenuPage.vue') },
-      { path: 'processing', component: () => import('pages/Loading.vue') },
-    ],
+    component: QrCodeLayout,
+    children: [{ path: '', component: SideMenuPage }],
   },
   {
     path: '/TOP',

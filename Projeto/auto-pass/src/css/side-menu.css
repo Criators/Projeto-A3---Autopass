@@ -1,3 +1,16 @@
-.side-menu-item {
-  background-color: red;
+@import 'colorPalette.css';
+
+.side-menu {
+  display: flex;
+  background-color: rgb(0, 179, 255);
+  max-width: fit-content;
+}
+.buttons-menu {
+  display: block;
+}
+.side-menu-button {
+  /*background-color: var(--menu-btn-color);*/
+}
+.clickable:hover {
+  background-color: aliceblue;
 }

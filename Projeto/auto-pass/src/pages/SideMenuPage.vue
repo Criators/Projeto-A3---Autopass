@@ -9,13 +9,13 @@
 import { defineComponent } from 'vue';
 import SideMenu from 'src/components/SideMenu.vue';
 import SideText from 'src/components/SideText.vue';
-import 'src/css/style.css';
+import '../css/side-menu.css';
 
 export default defineComponent({
   name: 'SideMenuPage',
   components: {
-    SideMenu: SideMenu,
-    SideText: SideText,
+    SideMenu,
+    SideText,
   },
 });
 </script>
