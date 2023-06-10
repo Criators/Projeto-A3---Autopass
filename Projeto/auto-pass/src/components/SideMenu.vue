@@ -1,10 +1,6 @@
 <template>
   <div>
     <ButtonsMenu class="buttons-menu" :buttonList="getMenuOptions()" />
-    <div>
-      <div>test</div>
-      <div></div>
-    </div>
   </div>
 </template>
 

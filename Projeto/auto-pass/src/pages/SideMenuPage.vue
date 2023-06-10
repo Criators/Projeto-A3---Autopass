@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <SideMenu class="side-menu" />
-    <SideText />
+  <div class="side-menu-container">
+    <SideMenu class="side-menu round-border" />
+    <SideText class="side-text-container" />
   </div>
 </template>
 

@@ -1,5 +1,11 @@
 @import 'colorPalette.css';
 
+.side-menu-container {
+  display: flex;
+  position: absolute;
+  left: 15%;
+  top: 4vh;
+}
 .side-menu {
   display: flex;
   background-color: rgb(0, 179, 255);
@@ -9,8 +15,37 @@
   display: block;
 }
 .side-menu-button {
-  /*background-color: var(--menu-btn-color);*/
+  margin: 1.5vh;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 50px;
 }
+.side-menu-button--normal {
+  padding: 6vh 2vh 6vh 2vh;
+  width: 27rem;
+}
+.side-menu-button--color {
+  background-color: var(--menu-btn-color);
+  color: var(--menu-btn-text-color);
+}
+
 .clickable:hover {
-  background-color: aliceblue;
+  background-color: var(--menu-btn-color__hover);
+  color: var(--menu-btn-text-color__hover);
+}
+
+.side-text {
+  position: relative;
+  display: grid;
+  left: 2rem;
+}
+.side-text-title {
+  margin-top: 1vh;
+}
+.side-text-button {
+  padding: 1vh;
+}
+.autopass-icon {
+  position: fixed;
+  bottom: 20vh;
 }

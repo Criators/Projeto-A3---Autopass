@@ -1,6 +1,10 @@
 <template>
   <div
-    :class="route == '' ? 'side-menu-button' : 'side-menu-button clickable'"
+    :class="
+      route == ''
+        ? 'side-menu-button side-menu-button--normal side-menu-button--color roud-border'
+        : 'side-menu-button side-menu-button--normal side-menu-button--color round-border clickable'
+    "
     @click="changeRoute(route)"
   >
     {{ text }}

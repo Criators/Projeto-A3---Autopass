@@ -1,18 +1,43 @@
 <template>
   <div>
-    <table>
-      <div>{{ quantity }}</div>
-      <div>
-        <button @click="add()">+</button>
-        <button @click="sub()">-</button>
-      </div>
+    <table class="calc-container">
+      <tr>
+        <td>
+          <div
+            class="qt-num side-menu-button side-menu-button--color round-border"
+          >
+            {{ quantity }} Unidade
+          </div>
+        </td>
+        <td>
+          <tr>
+            <button
+              class="qt-item side-menu-button side-menu-button--color round-border without-border clickable"
+              @click="add()"
+            >
+              +
+            </button>
+          </tr>
+          <tr>
+            <button
+              class="qt-item side-menu-button side-menu-button--color round-border without-border clickable"
+              @click="sub()"
+            >
+              -
+            </button>
+          </tr>
+        </td>
+      </tr>
     </table>
-    <div>R${{ quantity * 4.4 }}</div>
+    <div class="qt-item side-menu-button side-menu-button--color round-border">
+      R${{ (quantity * 4.4).toString().replace('.', ',').substring(0, 5) }}
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
+import '../css/QtCalc.css';
 
 export default defineComponent({
   name: 'QuantityCalc',

@@ -3,6 +3,9 @@
   --main-text-color: #292929;
   --menu-bg-color: #4eade3;
   --menu-btn-color: #7fcdf9;
+  --menu-btn-color__hover: #e2faff;
+  --menu-btn-text-color__hover: #292929;
+  --menu-btn-text-color: white;
   --footer-bg-color: #292929;
   --header-bg-color: #d9d9d9;
   --header-border-color: black;

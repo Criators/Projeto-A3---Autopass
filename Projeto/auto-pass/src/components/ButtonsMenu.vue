@@ -1,6 +1,8 @@
 <template>
   <div>
-    <QuantityCalc style="display: none"></QuantityCalc>
+    <QuantityCalc
+      :style="{ display: $route.path == '/QRCode' ? 'block' : 'none' }"
+    ></QuantityCalc>
     <div v-for="button in buttonList" :key="button.key">
       <SideMenuButton
         :text="button.text"

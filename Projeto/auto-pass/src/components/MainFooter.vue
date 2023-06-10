@@ -7,10 +7,10 @@
       <img :src="AutoPassIcon" />
     </div>
     <div class="flex items-center">
-      <div><img :src="QrIcon" /></div>
-      <div><img :src="EloIcon" /></div>
-      <div><img :src="CardIcon" /></div>
-      <div><img :src="TopIcon" /></div>
+      <div class="footer-icon"><img :src="QrIcon" /></div>
+      <div class="footer-icon"><img :src="EloIcon" /></div>
+      <div class="footer-icon"><img :src="CardIcon" /></div>
+      <div class="footer-icon"><img :src="TopIcon" /></div>
     </div>
   </footer>
 </template>
