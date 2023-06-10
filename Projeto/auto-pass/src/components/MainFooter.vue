@@ -2,7 +2,7 @@
   <footer>
     <div
       class="flex items-center"
-      :style="{ opacity: isSideMenu ? '0' : '100%' }"
+      :style="{ opacity: isSideMenu() ? '0' : '100%' }"
     >
       <img :src="AutoPassIcon" />
     </div>
@@ -22,12 +22,19 @@ import AutoPassIcon from '../assets/icons/autopass.png';
 import TopIcon from '../assets/icons/TOP.png';
 import CardIcon from '../assets/icons/card.png';
 import EloIcon from '../assets/icons/elo.png';
+
 export default defineComponent({
   name: 'MainFooter',
-  props: {
-    isSideMenu: {
-      type: Boolean,
-      default: true,
+  methods: {
+    isSideMenu() {
+      const NotSideMenuList = [
+        '/Help',
+        'processing',
+        'insertCard',
+        'insertPass',
+        'approved',
+      ];
+      return !NotSideMenuList.includes(this.$route.path);
     },
   },
   data: function () {

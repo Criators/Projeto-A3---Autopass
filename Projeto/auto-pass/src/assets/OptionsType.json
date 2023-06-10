@@ -31,14 +31,24 @@
   "topCard": [
     {
       "key": 1,
-      "text": "Comprar",
+      "text": "Dinheiro",
+      "route": "processing"
+    },
+    {
+      "key": 2,
+      "text": "Débito",
       "route": "processing"
     }
   ],
   "bilhete": [
     {
       "key": 1,
-      "text": "Comprar",
+      "text": "Dinheiro",
+      "route": "processing"
+    },
+    {
+      "key": 2,
+      "text": "Débito",
       "route": "processing"
     }
   ]

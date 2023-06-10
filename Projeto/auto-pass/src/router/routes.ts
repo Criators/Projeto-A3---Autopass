@@ -1,6 +1,9 @@
 import { RouteRecordRaw } from 'vue-router';
 import SideMenuPage from 'pages/SideMenuPage.vue';
 import QrCodeLayout from 'layouts/QrCodeLayout.vue';
+import TOPLayoutVue from 'src/layouts/TOPLayout.vue';
+import BilheteLayoutVue from 'layouts/BilheteLayout.vue';
+import HelpLayout from 'layouts/HelpLayout.vue';
 import MainMenu from 'src/layouts/MainMenu.vue';
 const routes: RouteRecordRaw[] = [
   {
@@ -12,28 +15,31 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/QRCode',
     component: QrCodeLayout,
-    children: [{ path: '', component: SideMenuPage }],
+    children: [
+      { path: '', component: SideMenuPage },
+      { path: 'processing', component: SideMenuPage },
+    ],
   },
   {
     path: '/TOP',
-    component: () => import('layouts/TOPLayout.vue'),
+    component: TOPLayoutVue,
     children: [
-      { path: 'step1', component: () => import('src/pages/SideMenuPage.vue') },
+      { path: '', component: SideMenuPage },
       { path: 'processing', component: () => import('pages/Loading.vue') },
     ],
   },
   {
     path: '/BilheteUnico',
-    component: () => import('layouts/BilheteLayout.vue'),
+    component: BilheteLayoutVue,
     children: [
-      { path: 'step1', component: () => import('src/pages/SideMenuPage.vue') },
+      { path: '', component: SideMenuPage },
       { path: 'processing', component: () => import('pages/Loading.vue') },
     ],
   },
   {
     path: '/Help',
-    component: () => import('layouts/Help.vue'),
-    children: [{ path: '', component: () => import('pages/Help.vue') }],
+    component: HelpLayout,
+    children: [{ path: '', component: () => import('src/pages/HelpPage.vue') }],
   },
   {
     path: '/WrongPass',

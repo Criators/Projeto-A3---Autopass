@@ -54,17 +54,31 @@ footer {
   padding: 2rem;
   z-index: -1;
 }
+p {
+  margin: 0 0 8px;
+}
 .footer-icon {
   margin: 0.5rem;
 }
 .menu {
   background-color: var(--menu-bg-color);
 }
-.menu.btn {
+.menu-btn {
   background-color: var(--menu-btn-color);
+  color: var(--menu-btn-text-color);
+  transition: 0.5s;
+  font-size: 50px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem;
 }
-
+.menu-btn__clickable:hover {
+  background-color: var(--menu-btn-color__hover);
+  color: var(--menu-btn-text-color__hover);
+}
 /*Utils*/
+.pos-fixed {
+  position: fixed;
+}
 .items-center {
   align-items: center;
 }
@@ -76,4 +90,10 @@ footer {
 }
 .without-border {
   border-width: 0;
+}
+.desc-text-size {
+  font-size: 30px;
+}
+.sub-desc-text-size {
+  font-size: 20px;
 }
