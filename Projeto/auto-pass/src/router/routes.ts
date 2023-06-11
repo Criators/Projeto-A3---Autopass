@@ -1,10 +1,13 @@
 import { RouteRecordRaw } from 'vue-router';
-import SideMenuPage from 'pages/SideMenuPage.vue';
 import QrCodeLayout from 'layouts/QrCodeLayout.vue';
 import TOPLayoutVue from 'src/layouts/TOPLayout.vue';
 import BilheteLayoutVue from 'layouts/BilheteLayout.vue';
 import HelpLayout from 'layouts/HelpLayout.vue';
 import MainMenu from 'src/layouts/MainMenu.vue';
+
+import SideMenuPage from 'pages/SideMenuPage.vue';
+import LoadingPage from 'src/pages/LoadingPage.vue';
+
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
@@ -17,7 +20,26 @@ const routes: RouteRecordRaw[] = [
     component: QrCodeLayout,
     children: [
       { path: '', component: SideMenuPage },
-      { path: 'processing', component: SideMenuPage },
+      {
+        path: 'Processing',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'Processing2',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertPass',
+        component: LoadingPage,
+      },
+      {
+        path: 'Approved',
+        component: LoadingPage,
+      },
     ],
   },
   {
@@ -25,7 +47,7 @@ const routes: RouteRecordRaw[] = [
     component: TOPLayoutVue,
     children: [
       { path: '', component: SideMenuPage },
-      { path: 'processing', component: () => import('pages/Loading.vue') },
+      { path: '/Processing', component: () => import('pages/Loading.vue') },
     ],
   },
   {
@@ -33,7 +55,7 @@ const routes: RouteRecordRaw[] = [
     component: BilheteLayoutVue,
     children: [
       { path: '', component: SideMenuPage },
-      { path: 'processing', component: () => import('pages/Loading.vue') },
+      { path: '/Processing', component: () => import('pages/Loading.vue') },
     ],
   },
   {

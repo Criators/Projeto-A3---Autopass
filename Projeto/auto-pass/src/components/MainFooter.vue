@@ -29,10 +29,11 @@ export default defineComponent({
     isSideMenu() {
       const NotSideMenuList = [
         '/Help',
-        'processing',
-        'insertCard',
-        'insertPass',
-        'approved',
+        '/Processing',
+        '/InsertCard',
+        '/InsertTCard',
+        '/InsertPass',
+        '/Approved',
       ];
       return !NotSideMenuList.includes(this.$route.path);
     },

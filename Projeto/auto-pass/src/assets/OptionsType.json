@@ -25,7 +25,7 @@
     {
       "key": 1,
       "text": "Comprar",
-      "route": "processing"
+      "route": "/QRCode/Processing"
     }
   ],
   "topCard": [

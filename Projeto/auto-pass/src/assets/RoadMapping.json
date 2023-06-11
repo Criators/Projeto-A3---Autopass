@@ -1,0 +1,61 @@
+[
+  {
+    "name": "/InvPrintSuccess",
+    "data": [
+      {
+        "route": "",
+        "redirect": "/Thanks"
+      }
+    ]
+  },
+  {
+    "name": "/QRCode",
+    "data": [
+      {
+        "route": "/Processing",
+        "redirect": "/QRCode/InsertCard"
+      },
+      {
+        "route": "/InsertCard",
+        "redirect": "/QRCode/Processing2"
+      },
+      {
+        "route": "/Processing2",
+        "redirect": "/QRCode/InsertPass"
+      },
+      {
+        "route": "/InsertPass",
+        "redirect": "/QRCode/Approved"
+      },
+      {
+        "route": "/Approved",
+        "redirect": "/QRCode/RemoveDebit"
+      },
+      {
+        "route": "/RemoveDebit",
+        "redirect": "/QRCode/Printing"
+      },
+      {
+        "route": "/Printing",
+        "redirect": "QRCode/PrintSuccess"
+      },
+      {
+        "route": "/PrintSuccess",
+        "redirect": "/InvoiceQuestion"
+      }
+    ]
+  },
+  {
+    "name": "/TopCard",
+    "data": [
+      {
+        "route": "/InsertTCard",
+        "redirect": "/TopCard/RechargeType"
+      },
+      {
+        "route": "/Processing",
+        "redirect": "/InsertCard"
+      }
+    ]
+  }
+]
