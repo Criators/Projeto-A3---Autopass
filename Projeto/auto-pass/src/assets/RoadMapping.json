@@ -9,6 +9,15 @@
     ]
   },
   {
+    "name": "/Thanks",
+    "data": [
+      {
+        "route": "",
+        "redirect": "/"
+      }
+    ]
+  },
+  {
     "name": "/QRCode",
     "data": [
       {
@@ -37,11 +46,11 @@
       },
       {
         "route": "/Printing",
-        "redirect": "QRCode/PrintSuccess"
+        "redirect": "/QRCode/PrintSuccess"
       },
       {
         "route": "/PrintSuccess",
-        "redirect": "/InvoiceQuestion"
+        "redirect": "/QRCode/InvoiceQuestion"
       }
     ]
   },

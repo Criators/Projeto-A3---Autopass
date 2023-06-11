@@ -1,55 +1,82 @@
-{
-  "startMenu": [
-    {
-      "key": 1,
-      "text": "QR Code",
-      "route": "/QRCode"
-    },
-    {
-      "key": 2,
-      "text": "Cartão TOP",
-      "route": "/TOP"
-    },
-    {
-      "key": 3,
-      "text": "Bilhete Único",
-      "route": "/BilheteUnico"
-    },
-    {
-      "key": 4,
-      "text": "Ajuda",
-      "route": "/Help"
-    }
-  ],
-  "qrCode": [
-    {
-      "key": 1,
-      "text": "Comprar",
-      "route": "/QRCode/Processing"
-    }
-  ],
-  "topCard": [
-    {
-      "key": 1,
-      "text": "Dinheiro",
-      "route": "processing"
-    },
-    {
-      "key": 2,
-      "text": "Débito",
-      "route": "processing"
-    }
-  ],
-  "bilhete": [
-    {
-      "key": 1,
-      "text": "Dinheiro",
-      "route": "processing"
-    },
-    {
-      "key": 2,
-      "text": "Débito",
-      "route": "processing"
-    }
-  ]
-}
+[
+  {
+    "name": "/",
+    "data": [
+      {
+        "key": 1,
+        "text": "QR Code",
+        "route": "/QRCode"
+      },
+      {
+        "key": 2,
+        "text": "Cartão TOP",
+        "route": "/TOP"
+      },
+      {
+        "key": 3,
+        "text": "Bilhete Único",
+        "route": "/BilheteUnico"
+      },
+      {
+        "key": 4,
+        "text": "Ajuda",
+        "route": "/Help"
+      }
+    ]
+  },
+  {
+    "name": "/QRCode",
+    "data": [
+      {
+        "key": 1,
+        "text": "Comprar",
+        "route": "/QRCode/Processing"
+      }
+    ]
+  },
+  {
+    "name": "/QRCode/InvoiceQuestion",
+    "data": [
+      {
+        "key": 1,
+        "text": "Sim",
+        "route": "/InvPrintSuccess"
+      },
+      {
+        "key": 2,
+        "text": "Não",
+        "route": "/Thanks"
+      }
+    ]
+  },
+  {
+    "name": "/TOP",
+    "data": [
+      {
+        "key": 1,
+        "text": "Dinheiro",
+        "route": "processing"
+      },
+      {
+        "key": 2,
+        "text": "Débito",
+        "route": "processing"
+      }
+    ]
+  },
+  {
+    "name": "/BilheteUnico",
+    "data": [
+      {
+        "key": 1,
+        "text": "Dinheiro",
+        "route": "processing"
+      },
+      {
+        "key": 2,
+        "text": "Débito",
+        "route": "processing"
+      }
+    ]
+  }
+]

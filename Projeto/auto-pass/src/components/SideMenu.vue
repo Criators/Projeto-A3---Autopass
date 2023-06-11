@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import ButtonsMenu from './ButtonsMenu.vue';
+import ButtonsMenu, { Button } from './ButtonsMenu.vue';
 import OptionsTypeJson from '../assets/OptionsType.json';
 export default defineComponent({
   name: 'SideMenu',
@@ -20,16 +20,15 @@ export default defineComponent({
   },
   methods: {
     getMenuOptions() {
-      switch (this.$route.path) {
-        case '/QRCode':
-          return this.OptionsTypes.qrCode;
-        case '/TOP':
-          return this.OptionsTypes.topCard;
-        case '/BilheteUnico':
-          return this.OptionsTypes.bilhete;
-        default:
-          return this.OptionsTypes.startMenu;
-      }
+      console.log(this.$route.path);
+      const JsonData = OptionsTypeJson.find((route) =>
+        route.name.includes(this.$route.path)
+      );
+      const data =
+        JsonData == null
+          ? ([{ key: 1, text: '', route: '' }] as Button[])
+          : (JsonData.data as Button[]);
+      return data;
     },
   },
 });

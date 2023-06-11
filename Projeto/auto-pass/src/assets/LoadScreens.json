@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Processing",
+    "data": {
+      "imgSrc": "src/assets/icons/Debit.png",
+      "text": "Aguarde..."
+    }
+  },
+  {
+    "name": "Processing2",
+    "data": {
+      "imgSrc": "src/assets/icons/Debit.png",
+      "text": "Aguarde..."
+    }
+  },
+  {
+    "name": "InsertCard",
+    "data": {
+      "imgSrc": "src/assets/icons/Debit.png",
+      "text": "Insira seu cartão de débito..."
+    }
+  },
+  {
+    "name": "InsertPass",
+    "data": {
+      "imgSrc": "src/assets/icons/password.png",
+      "text": "Digite a senha..."
+    }
+  },
+  {
+    "name": "InsertTCard",
+    "data": {
+      "imgSrc": "src/assets/icons/Debit.png",
+      "text": "Insira seu cartão de transporte..."
+    }
+  },
+  {
+    "name": "Approved",
+    "data": {
+      "imgSrc": "src/assets/icons/success.gif",
+      "text": "Valor Aceito!"
+    }
+  },
+  {
+    "name": "RemoveDebit",
+    "data": {
+      "imgSrc": "src/assets/icons/Debit.png",
+      "text": "Retire seu cartão de Débito!"
+    }
+  },
+  {
+    "name": "Printing",
+    "data": {
+      "imgSrc": "src/assets/icons/BlackQRCode.png",
+      "text": "Imprimindo QR Code..."
+    }
+  },
+  {
+    "name": "PrintSuccess",
+    "data": {
+      "imgSrc": "src/assets/icons/success.gif",
+      "text": "QR Code impresso com sucesso!"
+    }
+  },
+  {
+    "name": "WrongPass",
+    "data": {
+      "imgSrc": "src/assets/icons/wrongindicator.gif",
+      "text": "Transação não aprovada"
+    }
+  },
+  {
+    "name": "InvPrintSuccess",
+    "data": {
+      "imgSrc": "src/assets/icons/success.gif",
+      "text": "Via impressa com sucesso!"
+    }
+  },
+  {
+    "name": "Thanks",
+    "data": {
+      "imgSrc": "src/assets/icons/thanks.png",
+      "text": "Agradecemos a sua compra!"
+    }
+  }
+]

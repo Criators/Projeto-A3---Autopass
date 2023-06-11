@@ -3,6 +3,7 @@ import QrCodeLayout from 'layouts/QrCodeLayout.vue';
 import TOPLayoutVue from 'src/layouts/TOPLayout.vue';
 import BilheteLayoutVue from 'layouts/BilheteLayout.vue';
 import HelpLayout from 'layouts/HelpLayout.vue';
+import EndLayout from 'src/layouts/EndLayout.vue';
 import MainMenu from 'src/layouts/MainMenu.vue';
 
 import SideMenuPage from 'pages/SideMenuPage.vue';
@@ -14,6 +15,16 @@ const routes: RouteRecordRaw[] = [
     component: MainMenu,
     children: [{ path: '', component: SideMenuPage }],
     props: true,
+  },
+  {
+    path: '/InvPrintSuccess',
+    component: EndLayout,
+    children: [{ path: '', component: LoadingPage }],
+  },
+  {
+    path: '/Thanks',
+    component: EndLayout,
+    children: [{ path: '', component: LoadingPage }],
   },
   {
     path: '/QRCode',
@@ -39,6 +50,22 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'Approved',
         component: LoadingPage,
+      },
+      {
+        path: 'RemoveDebit',
+        component: LoadingPage,
+      },
+      {
+        path: 'Printing',
+        component: LoadingPage,
+      },
+      {
+        path: 'PrintSuccess',
+        component: LoadingPage,
+      },
+      {
+        path: 'InvoiceQuestion',
+        component: SideMenuPage,
       },
     ],
   },
