@@ -186,11 +186,6 @@ const routes: RouteRecordRaw[] = [
     component: HelpLayout,
     children: [{ path: '', component: () => import('src/pages/HelpPage.vue') }],
   },
-  {
-    path: '/WrongPass',
-    component: () => import('layouts/WrongPassLayout.vue'),
-    children: [{ path: '', component: () => import('pages/WrongPass.vue') }],
-  },
 
   // Always leave this as last one,
   // but you can also remove it
