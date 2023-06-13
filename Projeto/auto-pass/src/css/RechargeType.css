@@ -1,0 +1,34 @@
+@import './colorPalette.css';
+
+.recharge-title {
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+
+.table-container {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  transform: translate(-50%);
+  background-color: var(--menu-bg-color);
+  font-size: 40px;
+  color: var(--menu-btn-text-color);
+  max-width: 90%;
+  max-height: 70%;
+  justify-content: center;
+}
+
+.table-menu {
+  text-align: center;
+  min-width: 1400px;
+}
+
+.table-menu td {
+  font-size: small;
+}
+
+.recharge-button {
+  font-size: 30px;
+  vertical-align: bottom;
+}

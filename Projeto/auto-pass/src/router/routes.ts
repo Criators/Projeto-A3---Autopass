@@ -8,6 +8,8 @@ import MainMenu from 'src/layouts/MainMenu.vue';
 
 import SideMenuPage from 'pages/SideMenuPage.vue';
 import LoadingPage from 'src/pages/LoadingPage.vue';
+import RechargeTypePage from 'src/pages/RechargeTypePage.vue';
+import DesiredValuePage from 'src/pages/DesiredValuePage.vue';
 
 const routes: RouteRecordRaw[] = [
   {
@@ -74,7 +76,54 @@ const routes: RouteRecordRaw[] = [
     component: TOPLayoutVue,
     children: [
       { path: '', component: SideMenuPage },
-      { path: '/Processing', component: () => import('pages/Loading.vue') },
+      {
+        path: 'Processing',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertTCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'RechargeType',
+        component: RechargeTypePage,
+      },
+      {
+        path: 'DesiredValue',
+        component: DesiredValuePage,
+      },
+      {
+        path: 'InsertMoney',
+        component: SideMenuPage,
+      },
+      {
+        path: 'ValueAccepted',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertPass',
+        component: LoadingPage,
+      },
+      {
+        path: 'Approved',
+        component: LoadingPage,
+      },
+      {
+        path: 'RemoveDebit',
+        component: LoadingPage,
+      },
+      {
+        path: 'RemoveTCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'InvoiceQuestion',
+        component: SideMenuPage,
+      },
     ],
   },
   {
@@ -82,7 +131,54 @@ const routes: RouteRecordRaw[] = [
     component: BilheteLayoutVue,
     children: [
       { path: '', component: SideMenuPage },
-      { path: '/Processing', component: () => import('pages/Loading.vue') },
+      {
+        path: 'Processing',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertTCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'RechargeType',
+        component: RechargeTypePage,
+      },
+      {
+        path: 'DesiredValue',
+        component: DesiredValuePage,
+      },
+      {
+        path: 'InsertMoney',
+        component: SideMenuPage,
+      },
+      {
+        path: 'ValueAccepted',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'InsertPass',
+        component: LoadingPage,
+      },
+      {
+        path: 'Approved',
+        component: LoadingPage,
+      },
+      {
+        path: 'RemoveDebit',
+        component: LoadingPage,
+      },
+      {
+        path: 'RemoveTCard',
+        component: LoadingPage,
+      },
+      {
+        path: 'InvoiceQuestion',
+        component: SideMenuPage,
+      },
     ],
   },
   {

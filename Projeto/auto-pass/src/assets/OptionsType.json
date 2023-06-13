@@ -55,12 +55,61 @@
       {
         "key": 1,
         "text": "Dinheiro",
-        "route": "processing"
+        "route": "/TOP/InsertTCard"
       },
       {
         "key": 2,
         "text": "Débito",
-        "route": "processing"
+        "route": "/TOP/InsertTCard"
+      }
+    ]
+  },
+  {
+    "name": "/TOP/DesiredValue",
+    "data": [
+      {
+        "key": 1,
+        "text": "R$2,00",
+        "route": "/TOP/InsertMoney"
+      },
+      {
+        "key": 2,
+        "text": "R$5,00",
+        "route": "/TOP/InsertMoney"
+      },
+      {
+        "key": 3,
+        "text": "R$10,00",
+        "route": "/TOP/InsertMoney"
+      },
+      {
+        "key": 4,
+        "text": "R$50,00",
+        "route": "/TOP/InsertMoney"
+      },
+      {
+        "key": 5,
+        "text": "R$100,00",
+        "route": "/TOP/InsertMoney"
+      }
+    ]
+  },
+  {
+    "name": "/TOP/InsertMoney",
+    "data": []
+  },
+  {
+    "name": "/TOP/InvoiceQuestion",
+    "data": [
+      {
+        "key": 1,
+        "text": "Sim",
+        "route": "/InvPrintSuccess"
+      },
+      {
+        "key": 2,
+        "text": "Não",
+        "route": "/Thanks"
       }
     ]
   },
@@ -70,12 +119,61 @@
       {
         "key": 1,
         "text": "Dinheiro",
-        "route": "processing"
+        "route": "/BilheteUnico/InsertTCard"
       },
       {
         "key": 2,
         "text": "Débito",
-        "route": "processing"
+        "route": "/BilheteUnico/InsertTCard"
+      }
+    ]
+  },
+  {
+    "name": "/BilheteUnico/InsertMoney",
+    "data": []
+  },
+  {
+    "name": "/BilheteUnico/DesiredValue",
+    "data": [
+      {
+        "key": 1,
+        "text": "R$2,00",
+        "route": "/BilheteUnico/InsertMoney"
+      },
+      {
+        "key": 2,
+        "text": "R$5,00",
+        "route": "/BilheteUnico/InsertMoney"
+      },
+      {
+        "key": 3,
+        "text": "R$10,00",
+        "route": "/BilheteUnico/InsertMoney"
+      },
+      {
+        "key": 4,
+        "text": "R$50,00",
+        "route": "/BilheteUnico/InsertMoney"
+      },
+      {
+        "key": 5,
+        "text": "R$100,00",
+        "route": "/BilheteUnico/InsertMoney"
+      }
+    ]
+  },
+  {
+    "name": "/BilheteUnico/InvoiceQuestion",
+    "data": [
+      {
+        "key": 1,
+        "text": "Sim",
+        "route": "/InvPrintSuccess"
+      },
+      {
+        "key": 2,
+        "text": "Não",
+        "route": "/Thanks"
       }
     ]
   }

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "",
+    "data": {
+      "title": "Olá! Como podemos te ajudar?",
+      "desc": ""
+    }
+  },
+  {
+    "name": "InsertMoney",
+    "data": {
+      "title": "Insira as notas até completar o valor.",
+      "desc": "Lembrando que este terminal não devolve troco e nem aceita moedas. Tempo limite para operação:"
+    }
+  },
+  {
+    "name": "DesiredValue",
+    "data": {
+      "title": "Selecione o valor desejado:",
+      "desc": ""
+    }
+  },
+  {
+    "name": "QRCode",
+    "data": {
+      "title": "Diga-nos quantos QR Codes você deseja adquirir.",
+      "desc": ""
+    }
+  },
+  {
+    "name": "TOP",
+    "data": {
+      "title": "Qual será a modalidade de pagamento?",
+      "desc": ""
+    }
+  },
+  {
+    "name": "InvoiceQuestion",
+    "data": {
+      "title": "Deseja imprimir sua via?",
+      "desc": ""
+    }
+  },
+  {
+    "name": "BilheteUnico",
+    "data": {
+      "title": "Qual será a modalidade de pagamento?",
+      "desc": ""
+    }
+  }
+]

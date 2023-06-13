@@ -75,6 +75,29 @@ p {
   background-color: var(--menu-btn-color__hover);
   color: var(--menu-btn-text-color__hover);
 }
+
+/*Tables*/
+
+.table-border {
+  border-bottom: solid;
+}
+.table-cell-right-border {
+  border-right: solid;
+}
+
+.table-row div {
+  padding: 10px;
+  flex: 1;
+  line-height: 1.1em;
+}
+.table-cell {
+  padding: 10px;
+  flex: 1;
+}
+.table-cell__border {
+  border-style: hidden solid hidden hidden;
+}
+
 /*Utils*/
 .pos-fixed {
   position: fixed;
@@ -95,5 +118,5 @@ p {
   font-size: 30px;
 }
 .sub-desc-text-size {
-  font-size: 20px;
+  font-size: 24px;
 }

@@ -20,7 +20,6 @@ export default defineComponent({
   },
   methods: {
     getMenuOptions() {
-      console.log(this.$route.path);
       const JsonData = OptionsTypeJson.find((route) =>
         route.name.includes(this.$route.path)
       );

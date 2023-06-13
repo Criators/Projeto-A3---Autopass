@@ -30,12 +30,19 @@
   {
     "name": "InsertTCard",
     "data": {
-      "imgSrc": "src/assets/icons/Debit.png",
+      "imgSrc": "src/assets/icons/TCard.png",
       "text": "Insira seu cartão de transporte..."
     }
   },
   {
     "name": "Approved",
+    "data": {
+      "imgSrc": "src/assets/icons/success.gif",
+      "text": "Transação Aprovada!"
+    }
+  },
+  {
+    "name": "ValueAccepted",
     "data": {
       "imgSrc": "src/assets/icons/success.gif",
       "text": "Valor Aceito!"
@@ -46,6 +53,13 @@
     "data": {
       "imgSrc": "src/assets/icons/Debit.png",
       "text": "Retire seu cartão de Débito!"
+    }
+  },
+  {
+    "name": "RemoveTCard",
+    "data": {
+      "imgSrc": "src/assets/icons/TCard.png",
+      "text": "Retire seu cartão de transporte!"
     }
   },
   {

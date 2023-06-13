@@ -55,15 +55,76 @@
     ]
   },
   {
-    "name": "/TopCard",
+    "name": "/TOP",
     "data": [
       {
         "route": "/InsertTCard",
-        "redirect": "/TopCard/RechargeType"
+        "redirect": "/TOP/RechargeType"
+      },
+      {
+        "route": "/InsertCard",
+        "redirect": "/TOP/Processing"
       },
       {
         "route": "/Processing",
-        "redirect": "/InsertCard"
+        "redirect": "/TOP/InsertPass"
+      },
+      {
+        "route": "/InsertPass",
+        "redirect": "/TOP/Approved"
+      },
+      {
+        "route": "/ValueAccepted",
+        "redirect": "/TOP/RemoveTCard"
+      },
+      {
+        "route": "/Approved",
+        "redirect": "/TOP/RemoveDebit"
+      },
+      {
+        "route": "/RemoveDebit",
+        "redirect": "/TOP/RemoveTCard"
+      },
+      {
+        "route": "/RemoveTCard",
+        "redirect": "/TOP/InvoiceQuestion"
+      }
+    ]
+  },
+  {
+    "name": "/BilheteUnico",
+    "data": [
+      {
+        "route": "/InsertTCard",
+        "redirect": "/BilheteUnico/RechargeType"
+      },
+      {
+        "route": "/InsertCard",
+        "redirect": "/BilheteUnico/Processing"
+      },
+      {
+        "route": "/Processing",
+        "redirect": "/BilheteUnico/InsertPass"
+      },
+      {
+        "route": "/InsertPass",
+        "redirect": "/BilheteUnico/Approved"
+      },
+      {
+        "route": "/ValueAccepted",
+        "redirect": "/BilheteUnico/RemoveTCard"
+      },
+      {
+        "route": "/Approved",
+        "redirect": "/BilheteUnico/RemoveDebit"
+      },
+      {
+        "route": "/RemoveDebit",
+        "redirect": "/BilheteUnico/RemoveTCard"
+      },
+      {
+        "route": "/RemoveTCard",
+        "redirect": "/BilheteUnico/InvoiceQuestion"
       }
     ]
   }
