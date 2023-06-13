@@ -4,6 +4,7 @@ export const useAltStore = defineStore('alt', {
   state: () => ({
     curAlt: '',
     curValue: '',
+    lastRoute: '',
   }),
   getters: {
     getAlt: (state) => state.curAlt,
@@ -12,8 +13,11 @@ export const useAltStore = defineStore('alt', {
     defineAlt(currentAlt: string) {
       this.curAlt = currentAlt;
     },
-    defineValue(currentAlt: string) {
-      this.curValue = currentAlt;
+    defineValue(curValue: string) {
+      this.curValue = curValue;
+    },
+    defineRoute(route: string) {
+      this.lastRoute = route;
     },
   },
 });

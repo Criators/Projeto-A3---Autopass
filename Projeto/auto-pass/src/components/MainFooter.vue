@@ -29,6 +29,12 @@ function isSideMenu(routes: string[]) {
   const NotSideMenuList = [
     'Help',
     'Processing',
+    'Processing2',
+    'RemoveDebit',
+    'Printing',
+    'PrintSuccess',
+    'InvPrintSuccess',
+    'Thanks',
     'InsertCard',
     'InsertTCard',
     'InsertPass',

@@ -8,12 +8,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, PropType } from 'vue';
 
 export default defineComponent({
   name: 'BackButton',
   methods: {
     goBack() {
+      clearInterval(this.$props.interval as number);
       this.$router.go(-1);
     },
   },
@@ -21,6 +22,9 @@ export default defineComponent({
     label: {
       type: String,
       required: true,
+    },
+    interval: {
+      type: Number as PropType<number | null>,
     },
   },
 });

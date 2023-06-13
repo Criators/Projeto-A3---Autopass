@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BackButton label="Cancelar" />
+    <BackButton :interval="myInterval" label="Cancelar" />
     <div class="loading-container loading-content">
       <div class="loading-content">{{ MyData.text }}</div>
       <div class="loading-content">
@@ -16,9 +16,8 @@ import { useRouter } from 'vue-router';
 import BackButton from 'src/components/BackButton.vue';
 import RedirectList from '../assets/RoadMapping.json';
 import LoadScreens from '../assets/LoadScreens.json';
+import { useAltStore } from 'src/stores/alt-info-stores';
 import '../css/Loading.css';
-
-//TODO:Passar parametros pelo router no botão de Dinheiro/Debito
 
 interface myData {
   imgSrc: string;
@@ -39,17 +38,28 @@ export default defineComponent({
   name: 'LoadingPage',
   setup() {
     const router = useRouter();
+    const altStore = useAltStore();
     const countdown = ref(5);
     const pathList = ref(router.currentRoute.value.path.split('/'));
+    const isLoadScreen = ref(
+      LoadScreens.find((loadRoute) =>
+        loadRoute.name.includes(
+          !!pathList.value[2] ? pathList.value[2] : pathList.value[1]
+        )
+      ) == null
+    );
     const MyData = ref(
       getLoad(!!pathList.value[2] ? pathList.value[2] : pathList.value[1])
     );
+    const myInterval = ref<number | null>(null);
     const startCountDown = () => {
-      const interval = setInterval(() => {
+      altStore.defineRoute(router.currentRoute.value.fullPath);
+      myInterval.value = window.setInterval(() => {
         countdown.value--;
         console.log(countdown.value);
         if (countdown.value <= 0) {
-          clearInterval(interval);
+          clearInterval(myInterval.value as number);
+          myInterval.value = null;
           const curRoad = RedirectList.find((index) =>
             index.name.includes(pathList.value[1])
           );
@@ -71,7 +81,18 @@ export default defineComponent({
           !!pathList.value[2] ? pathList.value[2] : pathList.value[1]
         );
         countdown.value = 5;
-        startCountDown();
+        isLoadScreen.value =
+          LoadScreens.find((loadRoute) =>
+            loadRoute.name.includes(
+              !!pathList.value[2] ? pathList.value[2] : pathList.value[1]
+            )
+          ) != null;
+        console.log(isLoadScreen.value);
+        if (
+          altStore.lastRoute !== router.currentRoute.value.fullPath &&
+          isLoadScreen.value
+        )
+          startCountDown();
       }
     );
 
@@ -79,6 +100,7 @@ export default defineComponent({
     return {
       MyData,
       pathList,
+      myInterval,
     };
   },
   components: { BackButton },
