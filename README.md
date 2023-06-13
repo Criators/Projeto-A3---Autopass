@@ -13,8 +13,11 @@ O projeto constitui na modelação das telas do software instalado nas máquinas
 
 # Índice/Sumário
 
-* [Requisitos](https://github.com/Allan-Lima-CODY/Projeto-A3---Autopass/tree/main/Requisitos)
-* [Tecnologias Usadas](#tecnologias-usadas)
+* [Apresentação](https://github.com/Criators/Projeto-A3---Autopass/tree/main/Apresentacao)
+* [Programa](https://github.com/Criators/Projeto-A3---Autopass/tree/main/Projeto/auto-pass)
+* [Protótipos](https://github.com/Criators/Projeto-A3---Autopass/tree/main/Prototipos)
+* [Requisitos](https://github.com/Criators/Projeto-A3---Autopass/tree/main/Requisitos)
+* [Relatório Analítico]()
 
 # Tecnologias Usadas
 
