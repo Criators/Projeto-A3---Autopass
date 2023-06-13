@@ -77,13 +77,6 @@
     }
   },
   {
-    "name": "WrongPass",
-    "data": {
-      "imgSrc": "src/assets/icons/wrongindicator.gif",
-      "text": "Transação não aprovada"
-    }
-  },
-  {
     "name": "InvPrintSuccess",
     "data": {
       "imgSrc": "src/assets/icons/success.gif",
