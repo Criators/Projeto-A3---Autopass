@@ -8,7 +8,7 @@
 O projeto constitui na modelação das telas do software instalado nas máquinas da Autopass, tendo como etapas os cenários, personas, protótipos, aplicação web, relatórios, entre outros.
 
 <h4 align="center"> 
-	🚧  Em desenvolvimento . . .
+	🚧  Concluído . . .
 </h4>
 
 # Índice/Sumário
